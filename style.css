@@ -12,9 +12,9 @@ h3 {
   color: white;
 }
 
-h4 {
+/* h4 {
   color: white;
-}
+} */
 
 .row {
  margin-left: 50px;
@@ -23,7 +23,7 @@ h4 {
 }
 
 .bg-main {
-  background-color: #97c4c5;
+  background-color: #32b9bc;
 }
 
 .bg-head-foot {
