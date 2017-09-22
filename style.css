@@ -8,14 +8,12 @@ ul {
   padding-bottom: 0;
 }
 
-/* !!!Між строками тексту неравномірні відступи*/
-
 h3 {
   color: white;
 }
 
 h4 {
-  color: #001419;
+  color: white;
 }
 
 .row {
@@ -47,7 +45,7 @@ h4 {
 }
 
 .button:hover {
-  background-color: #c0b95d;
+  background-color: #db440d;
 }
 
 .button-mod {
