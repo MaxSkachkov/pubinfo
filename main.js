@@ -7,6 +7,7 @@ function sendTxt() {
     document.getElementById('three').innerHTML = document.getElementById('val3').value;
     document.getElementById('four').innerHTML = document.getElementById('val4').value;
     document.getElementById('five').innerHTML = document.getElementById('val5').value;
+    document.getElementById('six').innerHTML = document.getElementById('val6').value;
     document.getElementById("date").innerHTML = formatDate();
 
     function formatDate() {
@@ -27,7 +28,6 @@ function printDoc() {
 }
 
 //Auto
-
 
 // Autocompletle
 var data =
@@ -311,15 +311,17 @@ var data =
            label:"Черкаська обласна державна адміністрація",
            value:"18007, м. Черкаси, бульвар Шевченка, 185"
        },
-      {label:"Донецька обласна військово-цивільна адміністрація",
-       value:"84300, Донецька область, м. Краматорськ, проспект Миру, 2"
+      {
+	   label:"Донецька обласна військово-цивільна адміністрація",
+	   value:"84300, Донецька область, м. Краматорськ, проспект Миру, 2"
        },
-      {label:"Луганська обласна військово-цивільна адміністрація",
-      value:"93405, Луганська область, м. Сєвєродонецьк, пр-т. Центральний, 59"},
-      {label:"Чернівецька обласна державна адміністрація",
-       value:"58002, м. Чернівці, вул. Грушевського, 1"}
+      {
+	   label:"Луганська обласна військово-цивільна адміністрація",
+	   value:"93405, Луганська область, м. Сєвєродонецьк, пр-т. Центральний, 59"},
+      {
+	   label:"Чернівецька обласна державна адміністрація",
+	   value:"58002, м. Чернівці, вул. Грушевського, 1"}
    ];
-
 
 		$(function() {
 			$("#val1").autocomplete({
@@ -340,7 +342,6 @@ var data =
 			});
 		});
 
-
     //Download PDF document
     var doc = new jsPDF();
 var specialElementHandlers = {
@@ -356,7 +357,6 @@ $('#cmd').click(function () {
     });
     doc.save('Pubinfo.pdf');
 });
-
 
     //Send mail
 var nodemailer = require(['nodemailer']);
